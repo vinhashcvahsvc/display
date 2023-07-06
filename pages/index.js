@@ -37,22 +37,6 @@ export default function Home() {
           {/* POST */}
           <div className='  mt-[40px] m-[20px] grid gap-5 '>
            
-            <div className=' border-t-2   '>
-              <div className='flex flex-nowrap pt-[10px]' >
-                <img src='Vinh.jpg' className='rounded-full w-[40px] h-[40px] '/>
-                <p className='font-medium ml-[5px]'>Pham Vinh</p>
-              </div>
-              <div className='grid   grid-rows-2 grid-cols-3 grid-flow-dense justify-between'>
-                <div className='col-span-2 text-2xl font-medium'> Topic</div>
-                <div className='col-span-2 font-normal '>contents   </div>
-                <img className='row-span-2 rounded-lg border'
-                 src='CORE.jpeg'/>
-                 <div className='flex gap-7 '>
-                  <button className=' border-2 rounded-full font-medium h-[30px] w-[80px] px-[13px] horver:cursor-pointer '> UX</button>
-                  <button className=' border-2 rounded-full font-medium h-[30px] w-[80px] px-[13px] horver:cursor-pointer '> UI</button>
-                 </div>
-              </div>           
-            </div>
 
             <div className=' border-t-2   '>
               <div className='flex flex-nowrap pt-[10px]' >
@@ -61,7 +45,7 @@ export default function Home() {
               </div>
               <div className='grid   grid-rows-2 grid-cols-3 grid-flow-dense justify-between'>
                 <div className='col-span-2 text-2xl font-medium'> Topic</div>
-                <div className='col-span-2 font-normal '>contents   </div>
+                <div className='col-span-2 font-normal h-[4.8em] overflow-hidden '>   </div>
                 <img className='row-span-2 rounded-lg border'
                  src='CORE.jpeg'/>
                  <div className='flex gap-7 '>
@@ -70,6 +54,7 @@ export default function Home() {
                  </div>
               </div>           
             </div>
+            
           </div>
         </div>
 
